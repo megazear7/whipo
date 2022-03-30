@@ -1,0 +1,20 @@
+{
+  "name": "whipo",
+  "version": "0.0.0",
+  "description": "Quickly whip up web applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Web",
+    "app",
+    "Express"
+  ],
+  "author": "Alex Lockhart",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
