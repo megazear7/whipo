@@ -2,6 +2,7 @@
   "name": "whipo",
   "version": "0.0.0",
   "description": "Quickly whip up web applications",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +12,12 @@
     "app",
     "Express"
   ],
+  "bin": {
+    "whipo": "./bin/whipo.js"
+  },
   "author": "Alex Lockhart",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "yargs": "^17.4.0"
   }
 }
