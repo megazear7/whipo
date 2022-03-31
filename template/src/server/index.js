@@ -5,7 +5,7 @@ const server = express();
 const port = 5000;
 const app = new App();
 
-server.get('/', (req, res) => {
+server.get('/', async (req, res) => {
     const html = await app.render(req);
     res.send(html);
 });

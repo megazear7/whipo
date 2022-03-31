@@ -1,0 +1,17 @@
+{
+  "name": "whipo-template",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/server/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server/index.js"
+  },
+  "author": "",
+  "license": "UNLISCENDED",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}

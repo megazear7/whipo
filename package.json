@@ -2,7 +2,6 @@
   "name": "whipo",
   "version": "0.0.0",
   "description": "Quickly whip up web applications",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +18,8 @@
   "license": "ISC",
   "devDependencies": {
     "yargs": "^17.4.0"
+  },
+  "dependencies": {
+    "copy-dir": "^1.3.0"
   }
 }

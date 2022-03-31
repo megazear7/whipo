@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 
-import yargs from 'yargs';
-import { hideBin } from 'yargs/helpers';
-import WhipoInit from './whipo-init.js';
+const yargs = require('yargs');
+const { hideBin } = require('yargs/helpers');
+const WhipoInit = require('./whipo-init.js');
 
 yargs(hideBin(process.argv))
-  .command('gen [init]', 'Initialize a new project', yargs => {
+  .command('init [name]', 'Initialize a new project', yargs => {
     return yargs
-      .positional('init', {
+      .positional('name', {
         describe: 'The name of the project',
         default: 'whipo-example'
       })
