@@ -5,6 +5,12 @@ The JS is loaded at the bottom of the page, so you do not need to wait for the d
 or anything like that. You can use ES6 import statements since this is a module.
 */
 
+/*%% IF SW %%*/
+if ('serviceWorker' in navigator && !window.location.hostname.includes('localhost')) {
+    navigator.serviceWorker.register('/sw.js');
+}
+/*%% END IF SW %%*/
+
 console.log('Add your JS to the src/client/app.js file.');
 
 const allMovies = () => document.querySelectorAll('.movie');
