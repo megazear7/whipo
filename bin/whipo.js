@@ -19,4 +19,9 @@ yargs(hideBin(process.argv))
     type: 'boolean',
     description: 'Include a service worker'
   })
+  .option('api-keys', {
+    alias: 'ak',
+    type: 'boolean',
+    description: 'Include a git ignored env file for api keys'
+  })
   .parse()

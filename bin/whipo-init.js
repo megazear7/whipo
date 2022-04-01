@@ -18,6 +18,10 @@ module.exports = class WhipoInit {
                     return false;
                 }
 
+                if (!this.argv.ak && filename === 'stub.env.js') {
+                    return false;
+                }
+
                 return true;
              }
         });

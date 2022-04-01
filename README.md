@@ -17,14 +17,19 @@ Open [localhost:5000](http://localhost:5000/)
 
 ## Other CLI Options
 
-| Option | Alias | Description | Default | 
-| ------ | ----- | ----------- | ------- |
+| Option             | Alias  | Description | Default |
+| ------------------ | ------ | ----------- | ------- |
 | `--service-worker` | `--sw` | Include a service worker in the generated project | `false` |
+| `--api-keys`       | `--ak` | Include a gitignored env file for api keys        | `false` |
 
 ## API Keys
 
 If you need access to API keys, move the `stub.env.js` file to `.env.js` and fill this file with the keys.
-Then, uncomment the .env.js import in the App.js file, or wherever else you need it.
+Then, import this file anywhere under src/server as shown below.
+
+```js
+import env from '../../.env.js';
+```
 
 ## Support
 
