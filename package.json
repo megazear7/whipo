@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Quickly whip up server side rendered web applications",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/megazear7/whipo"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
