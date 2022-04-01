@@ -17,11 +17,15 @@ export default class App {
             movies: [{
                     title: "Lord of the Rings: The Fellowship of the Ring",
                     year: 2001,
-                    rating: 5
+                    rating: 10
                 }, {
                     title: "Dune",
                     year: 2021,
-                    rating: 4
+                    rating: 9
+                }, {
+                    title: "A Map of Tiny Perfect Things",
+                    year: 2021,
+                    rating: 10
                 }
             ]
         }

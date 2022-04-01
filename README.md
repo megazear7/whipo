@@ -1,10 +1,6 @@
 # Whipo
 
-Quickly whip up web applications
-
-## TODO
-
-Need to use the `template` folder to generate a project with a global cli command.
+Quickly whip up server side rendered web applications using express and template literals.
 
 ## Get started
 
