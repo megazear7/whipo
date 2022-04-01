@@ -2,6 +2,8 @@
 
 Quickly whip up server side rendered web applications using express and template literals.
 
+See the docs at [whipo.alexlockhart.me](http://whipo.alexlockhart.me/).
+
 ## Get started
 
 ```js
