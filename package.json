@@ -1,6 +1,6 @@
 {
   "name": "whipo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Quickly whip up server side rendered web applications",
   "main": "index.js",
   "repository": {
